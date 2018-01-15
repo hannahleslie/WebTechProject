@@ -9,8 +9,11 @@ body {
 footer {
 	background-color: #c8c6c6;
 	color: white;
+	padding-top: 4rem;
+	padding-left: 4rem;
 	padding-left: 2rem;
 	margin-top: 10rem;
+	height: 20rem;
 }
 
 header {
