@@ -1510,7 +1510,7 @@ h6,
 	font-family: inherit;
 	font-weight: 500;
 	line-height: 1.1;
-	color: inherit;
+	color: #ec9754;
 }
 
 h1 small,
@@ -1539,7 +1539,7 @@ h6 .small,
 .h6 .small {
 	font-weight: normal;
 	line-height: 1;
-	color: #777;
+	color: #ec9754;
 }
 
 h1,
