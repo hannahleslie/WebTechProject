@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Responsive Website || About Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/custom.css" rel="stylesheet">
+
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<script src="js/respond.js"></script>
+</head>
+
+<body class="container">
+
+
+	<!-- row 1: navigation -->
+	<div class="container">
+
+		div class="row">
+		<nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+			</div>
+			<div class="collapse navbar-collapse" id="collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="about.html">About</a></li>
+					<li><a href="#">Store</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+
+
+
+	<!-- row 2: header -->
+	<header class="row">
+		<div class="col-sm-5 col-lg-6">
+			<a href="#"><img src="img/logo.png" class="img-responsive" alt="logo"></a>
+		</div>
+		<div class="col-sm-7 col-lg-6">
+			<img src="img/banner.jpg" class="img-responsive" alt="banner">
+		</div>
+	</header>
+
+
+	<!-- row 3: about page content -->
+
+
+
+	<h1>Ontario Gardening | 2017</h1>
+	<p><img src="img/about.jpg" class="img-responsive img-thumbnail pull-right"> It was a hard year for gardening in Ontario. The amount of rain and cloud was hard on a lot of the plants. It was especially hard on the tropical plants that we can usaully have in our gardens during the summer, when it is hot enough. Flowers like hibuiscus and mandevillas were working hard to stay alive with the lack of sun and heat. Our Ontario native plants did seem to do better with the weather. They are more used to the ups and downs we see in this province. </p> <br />
+
+	<div class="table-responsive">
+		<table class="table table-striped table-bordered table-condensed">
+			<thead>
+				<tr>
+					<th>Time</th>
+					<th>Date </th>
+					<th>Weather</th>
+					<th>Percipitaion</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>21:00</td>
+					<td>June 16, 2017</td>
+					<td>Overcast</td>
+					<td>Total: 2cm rain</td>
+				</tr>
+				<tr>
+					<td>12:05</td>
+					<td>July 3, 2017</td>
+					<td>Sunny</td>
+					<td>Total: 0cm</td>
+				</tr>
+				<tr>
+					<td>08:32</td>
+					<td>August 23,2017</td>
+					<td>Thunderstorm</td>
+					<td>Total: 6cm rain</td>
+				</tr>
+			</tbody>
+		</table>
+	</div><br />
+
+
+	<!-- list navigation for tabs -->
+	<ul class="nav nav-tabs">
+		<li><a href="#residential" data-toggle="tab"><span class="glyphicon glyphicon-globe"></span> Residential</a></li>
+		<li><a href="#commerical" data-toggle="tab"><span class="glyphicon glyphicon-globe"></span> Commerical</a></li>
+		<li><a href="#rural" data-toggle="tab"><span class="glyphicon glyphicon-globe"></span> Rural</a></li>
+		<li><a href="#city" data-toggle="tab"><span class="glyphicon glyphicon-globe"></span> City</a></li>
+	</ul>
+
+
+	<!-- Tab content -->
+	<div class="tab-content">
+
+		<!-- Residential -->
+		<div class="tab-pane fade in active" id="residential">
+			<p>
+				<a href="img/tab-img1_LG.jpg"><img src="img/tab-img1.jpg"></a>Most animals were happy with the rainy weather because it made their enviornments damp and greenery lushious!</p>
+			<p><a href="#" class="btn btn-default btn-sm">Read more</a></p>
+		</div>
+
+		<!-- Commerical -->
+		<div class="tab-pane fade" id="commerical">
+			<p>
+				<a href="img/tab-img2_LG.jpg"><img src="img/tab-img2.jpg"></a> Unlike commerical enviornments farmers had to be aware of the daily weather changes to keep their crops happy and healthy. </p>
+			<p><a href="#" class="btn btn-default btn-sm">Read more</a></p>
+		</div>
+
+		<!-- Rural -->
+		<div class="tab-pane fade" id="rural">
+			<p>
+				<a href="img/tab-img3_LG.jpg"><img src="img/tab-img3.jpg"></a>Rural areas were largely effected by the rain this year. A lot of the people who live in rural areas rely on their own crops to feed their families.</p>
+			<p><a href="#" class="btn btn-default btn-sm">Read more</a></p>
+		</div>
+
+		<!-- City -->
+		<div class="tab-pane fade" id="city">
+			<p>
+				<a href="img/tab-img4_LG.jpg"><img src="img/tab-img4.jpg"></a> Plants in the city like planters outside of resteraunts and banks had to be looked after very carefully. </p>
+			<p><a href="#" class="btn btn-default btn-sm">Read more</a></p>
+		</div>
+
+		<div>
+			<!-- end tab content -->
+
+
+
+
+
+		</div>
+		<!-- end row 3 -->
+
+		<!-- row 4 -->
+		<footer class="row">
+			<p>
+				<small>
+            This is not a real website -- it was built for education purposes only.	            </small>
+				<br />
+				<small>Privacy Policy | Terms of Use</small>
+			</p>
+		</footer>
+
+	</div>
+	<!-- end container -->
+
+	<!-- javascript -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- linking JavaScript file necessary for lightbox in tabs -->
+	<script src="js/ekko-lightbox.min.js"></script>
+
+	<!-- Embedded JavaScript for successful lightbox operation -->
+	<script type="text/javascript">
+		$(document).ready(function($) {
+			$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+				event.preventDefault();
+				return $(this).ekkoLightbox();
+			});
+		});
+
+	</script>
+
+</body>
+
+</html>

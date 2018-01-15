@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body {
+	background-image: url(../img/bg.png);
+}
+
+footer {
+	background-color: #c8c6c6;
+	color: white;
+	padding-left: 2rem;
+	margin-top: 10rem;
+}
+
+header {
+	padding-top: 7rem;
+	padding-bottom: 5rem;
+}
